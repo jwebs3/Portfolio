@@ -1,56 +1,91 @@
 body {
-  background-color: #f2f2f2;
-  color: #008B8B;
-  margin: 0;
+  background-color: #008B8B;
+  color: #000;
+  margin: 20px;
   padding: 0;
 }
 
+/*Navigation*/
+.topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    border-bottom: 5px solid #000;
+    margin: -5px;
+}
+.firsttopnav {
+    border-right: 2px solid #000;
+}
+
+/*Headings*/
 .header {
   padding: 15px;
 }
-
-.content {
-  background-color: #f2f2f2;
-  color: #000000;
-  padding: 200px;
-}
-
-
-p {
-}
-.topnav a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-size: 40px;
-    border-bottom: 5px solid #000000;
-}
-.thumbnail {
-    image-orientation: 90deg flip;
-    height: 200px;
-    width: 200px;
-    border: 10px;
-    border-color: #000000;
-}
 .h1 {
   height: 100px;
-  width: 800px;
-  display: flex;
-  flex-direction: column;
+  width: 100px;
+  margin: ;
+  padding: ;
+  display: inline;
   justify-content: center;
   text-align: center;
 }
+
+/*Content*/
+.content {
+  background-color: #00cccc;
+  color: #000;
+  padding: 100px;
+}
 .rightside {
-  height: 200px;
-  width: 600px;
-  padding-left: 300px;
-  flex-direction: column;
+  box-sizing: border-box;
+  height: 500px;
+  width: 700px;
   justify-content: right;
   text-align: left;
-  display: flex;
+  display: inline-block;
+}
+.box1 {
+  background-color: #00b377;
+  color: #f2f2f2;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 10px;
+  width: 70px;
+  border: 2px solid #000;
+  margin: 20px;
+  padding: 10px 10px 30px 10px;
+  text-align: center;
+}
+.box2{
+  background-color: #00b377;
+  color: #f2f2f2;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 150px;
+  width: 150px;
+  border: 2px solid #000;
+  margin: 20px;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+}
+
+/*Images*/
+.thumbnail {
+  height: 300px;
+  width: 300px;
+  border-style: solid;
+  border-color: #000;
+  display: inline;
 }
 .img {
-  display: inline-block;
+  display: inline;
+  position: relative;
+  float: left;
+  width: 350px;
+  height: 350px;
+  text-align: left;
 }
