@@ -80,6 +80,7 @@ body {
   border-style: solid;
   border-color: #000;
   display: inline;
+  image-orientation: ;
 }
 .img {
   display: inline;
